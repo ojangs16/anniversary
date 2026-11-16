@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday My Girl!!! 💌</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="blur-in-start">
+
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+  <div class="ambient-glow glow-3"></div>
+
+  <!-- canvas confetti, dipakai oleh js/script.js -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <div id="floating-bg"></div>
+
+  <!-- titik navigasi di atas: halaman 4 dari 4 -->
+  <nav class="page-nav" aria-label="Page navigation">
+    <a href="index.html" title="Welcome"></a>
+    <a href="gallery.html" title="Moments"></a>
+    <a href="reasons.html" title="10 Reasons"></a>
+    <a href="letter.html" class="active" title="Birthday Letter"></a>
+  </nav>
+
+  <!-- ================================================================
+       HALAMAN 4 — THE BIRTHDAY LETTER & CELEBRATION
+  ================================================================= -->
+  <section id="letter-page" class="page">
+    <div class="letter-card">
+      
+      <div class="wax-seal">💌</div>
+
+      <h2 class="letter-title">Happy Anniversary My love!!! &lt;33</h2>
+
+      <!-- GIF perayaan -->
+      <div class="celebration-gif-frame">
+        <img src="assets/bub.png" alt="celebration gif">
+      </div>
+
+      <!-- TEKS SURAT ULANG TAHUN -->
+      <div class="letter-box">
+        <p id="letter-text"></p>
+      </div>
+
+      <div class="letter-action-bar">
+        <button id="skipTypeBtn" class="letter-mini-btn" title="Show full letter immediately">⚡ Show Full Letter</button>
+        <button id="replayConfettiBtn" class="letter-mini-btn" title="Celebrate again!">🎉 More Confetti!</button>
+      </div>
+
+      <p class="signature">— your biggest fan 💌</p>
+
+      <div class="love-back-wrap">
+        <button id="sendLoveBtn" class="send-love-btn">
+          <span class="send-love-icon">💖</span>
+          <span class="send-love-text">balas kasih sayangnya</span>
+        </button>
+        <div id="loveToast" class="love-toast">I love you more than everything! 🥹💖✨</div>
+      </div>
+    </div>
+
+    <div class="page-buttons">
+      <a href="reasons.html" class="nav-btn secondary">← balik ke alasan</a>
+    </div>
+  </section>
+
+  <footer>made with love, just for you 💝</footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
